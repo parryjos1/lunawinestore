@@ -48,6 +48,8 @@ p {
   padding-top:0;
 }
 
+
+
 .header2 {
   font-size:41px;
   line-height:17px;
@@ -111,16 +113,33 @@ section {
   width: 50%;
   height:100vh;
   text-align:center;
-  display: flex;
+  /* display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
   background-color: #eae2cf;
 }
 
 .contact-details {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-between; */
+  height: 100%;
+}
+
+.heading {
+  text-align: center;
+  height: 35vh;
+  width: 50%;
+  margin-left: 25%;
+}
+
+.logo {
+  /* width: 60%; */
+  /* height: 540px; */
+  height: 434.39px;
+  width: 434.39px;
+  width: 100%;
+  height: 100%;
 }
 
 aside {
@@ -155,3 +174,26 @@ a {
     height: 50vh;
   }
 }
+
+
+/* Ipad */
+
+@media only screen and (max-width: 1025px) {
+  body {
+    flex-direction: column;
+  }
+  .contact-details {
+    height: auto;
+    padding-top: 30px;
+  }
+  section {
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+  }
+  aside {
+    width: 100%;
+    height: 50vh;
+  }
+}
+
