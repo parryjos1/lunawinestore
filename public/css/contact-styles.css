@@ -1,0 +1,157 @@
+@font-face {
+  font-family: Gotham-Bold;
+  src: url(Gotham-Bold.otf),
+    url(GothamBold.ttf) format('truetype'),
+    url(GothamBold.woff) format('woff');
+}
+
+@font-face {
+  font-family: Gotham-Medium;
+  src: url(GothamMedium.ttf) format('truetype'),
+    url(GothamMedium.woff) format('woff');
+}
+
+@font-face {
+  font-family: Gotham-Light;
+  src: url(Gotham-Light.otf),
+    url(GothamLight.ttf) format('truetype'),
+    url(GothamLight.woff) format('woff');
+}
+
+@font-face {
+  font-family: Gotham-Light-Italic;
+  src: url(GothamLightItalic.ttf) format('truetype'),
+    url(GothamLightItalic.woff) format('woff');
+}
+
+body {
+  display: flex;
+  margin:0;
+  padding:0;
+  color: #3a4b5f;
+}
+
+p {
+  color: #3a4b5f;
+  font-family: Gotham-Bold;
+  margin: 0;
+  padding: 0;
+  padding-top: 30px;
+  font-size: 20px;
+}
+
+.header {
+  font-size:41px;
+  line-height:17px;
+  letter-spacing: 6px;
+  margin-top:0;
+  padding-top:0;
+}
+
+.header2 {
+  font-size:41px;
+  line-height:17px;
+  letter-spacing: 6px;
+}
+
+.sub-header {
+  font-family: Gotham-Medium;
+  margin-top: 20px;
+  font-size: 21px;
+  letter-spacing: 4px;
+}
+
+.address {
+  font-family: Gotham-Light;
+  font-size:15px;
+  letter-spacing: 2px;
+}
+
+.address2 {
+  font-family: Gotham-Light;
+  font-size:15px;
+  letter-spacing: 2px;
+  padding-top:20px;
+}
+
+.ad-top {
+  margin-top: 13px;
+}
+
+.tall-euc {
+  width: 33%;
+}
+
+.hours {
+  font-family: Gotham-Light;
+  font-size:15px;
+  letter-spacing: 2px;
+}
+.h-top {
+  font-family: Gotham-Medium;
+  padding-top: 30px;
+  font-size:15px;
+  letter-spacing: 2px;
+}
+
+.sub {
+  font-family: Gotham-Light-Italic;
+  font-size:14px;
+  letter-spacing: 2px;
+  line-height:20px;
+}
+
+.pad {
+  display: block;
+  margin-top: 20px;
+  line-height:20px;
+}
+
+section {
+  width: 50%;
+  height:100vh;
+  text-align:center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eae2cf;
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+aside {
+  width: 50%;
+  height:100vh;
+  background-image: url("https://res.cloudinary.com/djq5ic5br/image/upload/q_auto/borough/rackies.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a {
+  color: #3a4b5f;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    flex-direction: column;
+  }
+  .contact-details {
+    height: auto;
+    padding-top: 30px;
+  }
+  section {
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+  }
+  aside {
+    width: 100%;
+    height: 50vh;
+  }
+}
