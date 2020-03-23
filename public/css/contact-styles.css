@@ -145,18 +145,15 @@ img.logo {
   object-position: 100% 9;
 }
 
-.img-container {
-  /* width: 100%;
-  max-height: 35vh; */
-  /* width:300px; 
-  overflow:hidden; 
-  margin:0;    */
-}
+/* aside { */
+  /* Old background image */
+  /* background-image: url("https://res.cloudinary.com/djq5ic5br/image/upload/q_auto/borough/rackies.png"); */
+/* } */
 
 aside {
   width: 50%;
   height:100vh;
-  background-image: url("https://res.cloudinary.com/djq5ic5br/image/upload/q_auto/borough/rackies.png");
+  background-image: url("../images/lunawines_background_updated.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
